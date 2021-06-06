@@ -1,0 +1,218 @@
+*
+{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.slider{
+  overflow: hidden;
+  width: 100%;
+  height:100vh;
+}
+
+.slider figure div{
+  float: left;
+  width: 20%;
+
+}
+.slider figure img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  animation:animate 20s infinite;
+
+}
+
+p{
+
+  position: fixed;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 250px;
+  background: rgba(0, 0, 0,.5);
+  width: 100%;
+  height: 100vh;
+
+}
+@keyframes animate{
+  0%{left: 0%;}
+  10%{left: 0%;}
+  12%{left: -100%;}
+  22%{left: -100%;}
+  24%{left: -200%;}
+  34%{left: -200%;}
+  36%{left: -300%;}
+  46%{left: -300%;}
+  48%{left: -400%;}
+  58%{left: -400%;}
+  70%{left: -300%;}
+  72%{left: -300%;}
+  82%{left: -200%;}
+  84%{left: -200%;}
+  94%{left: -100%;}
+  96%{left: -100%;}
+  0%{left:  0%;}
+
+}
+
+/*Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+/*HEADER*/
+/*
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+header{
+  background: black;
+  color: rgb(255, 253, 253);
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: black 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: 16px;
+
+} */
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+
+/* scroll behaviour*/
+.top-container {
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  min-height: 50px;
+  border-bottom: black 3px solid;
+  text-align: center;
+}
+
+.header {
+  color: rgb(31, 28, 3);
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: black 3px solid;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/*BOXES */
+#boxes{
+  margin-top: 20px;
+  float: right;
+}
+
+
+#boxes .box{
+  text-align: center;
+  float: left;
+  width: 30%;
+  padding-top: 10px;    
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+footer{
+  padding: 10px;
+  margin-top: 0px;
+  color: #530b0b;
+  background-color: #2e1e1a;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#myself{
+    float: right ;
+  position: sticky;
+bottom: 10px;
+
+}
+
+
+.button_1{
+  border: none;
+
+  background: #1a1717;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  position: fixed;
+
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  }
+  .button_1{
+
+      bottom: 60px;
+      right: 10px; 
+  }  
+
+  .button_1:hover {
+      color: #404040 !important;
+      font-weight: 700 !important;
+      letter-spacing: 3px;
+      background: none;
+      transition: all 0.3s ease 0s;
+      }

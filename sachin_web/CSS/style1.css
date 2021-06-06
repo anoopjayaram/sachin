@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: url('/img/showcase2.jpg') ;
+    background-repeat: no-repeat;
+    background-color: rgb(231, 236, 241);
+
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+footer{
+    position: relative;
+    padding: 0;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}

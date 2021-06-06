@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About</title>
+<link rel="stylesheet" href="CSS/about_style.css">
+</head>
+<body>
+  <h1>Hi all</h1>
+  <div class="button_cont2"><a class="button_1" href="/index.html" target="_parent" rel="nofollow noopener" >home </a></div>
+  </body>
+  <!-- collapse section -->
+  <div class="container">
+    <button class="accordion">Experience</button>
+    <div class="accordion-content">
+      <ul>
+        <li>Intern RIOD LOGIC February 2021 – Ongoing, Angamali, KL</li>
+        <li>CRG Engineer SMEC Labs December 2019 –April 2020, Calicut, KL</li>
+      </ul>
+    </div>
+    <button class="accordion">Qualification</button>
+    <div class="accordion-content">
+      <ul>
+       <p>Graduate in Electronics </p><p> Graduate Diploma in Embedded Systems and Hardware Designing.</p>
+        <!-- <li>Sent</li>
+        <li>Drafts</li> -->
+      </ul>
+    </div>
+    <button class="accordion">Hobbies</button>
+    <div class="accordion-content">
+      <p>Web Development, Travel, Photography, Reading</p>
+    </div>
+    <button class="accordion">Projects</button>
+    <div class="accordion-content">
+     <ul>
+       <li> Smart Power meter using AVR Microcontroller. </li>
+       <li> Fingerprint and RFID based vehicle access control system using ARDUINO. </li>
+       <li>	HOME AUTOMATION using RASPBERRY PI </li>
+     </ul>
+    </div>
+    <button class="accordion">Extracurricular Activities</button>
+    <div class="accordion-content">
+      <ul>
+        <li>Volunteer at National Service Scheme and organised various activities and events.</li>
+        <li>Script writer in the School Short film organised by the Campus Film club.</li>
+        <li>Campus Ambassador for assisting enrolment of students during the special summary revision 2017 conducted by the Election Commission of India.</li>
+        <li>Participated in English Skit in revenue district Kerala School Kalolsavam. </li>
+      </ul>
+    </div>
+    <button class="accordion">Technical Skills</button>
+    <div class="accordion-content">
+      <ul>
+        <li><strong>Microcontrollers</strong> – AVR ATMEGA 32, ARM LPC2148, PIC 18F & 16F, Arduino, Raspberry PI, NodeMCU. </li>
+        <li><strong>Operating Systems</strong> used – Windows, Linux </li>
+        <li><strong>Programming languages</strong> – C, Java, Python, and Embedded C</li>
+        <li><strong>Communication Protocols</strong> – SPI, I2C, UART</li>
+        <li><strong>Web Development</strong> – HTML, CSS, FLASK</li>
+        <li><strong>Version Control</strong> – GIT</li>
+      </ul>
+    </div>
+    <button class="accordion">Contact</button>
+    <div class="accordion-content">
+      <p>anoopjayaram@hotmail.com</p>
+    </div>
+    <button class="accordion">Languages Known</button>
+    <div class="accordion-content">
+      <p>English, Malayalam</p>
+    </div>
+    <button class="accordion">Location</button>
+    <div class="accordion-content">
+      <p>Thrissur, Kerala, India</p>
+    </div>
+  </div>
+  <script>
+    let acc = document.querySelectorAll(".accordion");
+let i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    let panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
+  </script>
+</html>

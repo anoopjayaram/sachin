@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test Scroll</title>
+<link rel="stylesheet" href="CSS/t_style.css">
+
+</head>
+
+
+
+<header>
+  <div class="top-container">
+    <h1>anoop Jayaram</h1>
+  </div>
+  <div class="header" id="branding">
+    <h1>Anoop Jayaram</h1>
+      <div id="branding">
+        <h1 class="animated-link"> 
+        <nav>
+          
+          <ul>
+              <li class="current"> <a href="index.html">HOME</a></li>
+              <li> <a href="services.html">SERVICES</a></li>
+              <li> <a href="contact.html">CONTACT</a></li>                       
+          </ul>
+      </nav> </h1>
+      </div>
+     
+  </div>
+</header>
+<body>
+  <div class="slider">
+    <figure>
+      <div class="slide">
+        <p>Image one</p>
+        <img src="/img/showcase2.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <p>Image TWO</p>
+        <img src="/img/showcase.jpeg" alt="">
+      </div>
+      
+      <div class="slide">
+        <p>Image THREE</p>
+        <img src="/img/showcase1.jpeg" alt="">
+      </div>
+
+      <div class="slide">
+        <p>Image FOUR</p>
+        <img src="/img/showcase2.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <p>Image FIVE</p>
+        <img src="/img/showcase1.jpg" alt="">
+      </div>
+
+      </body>
+    </figure>
+  </div>
+
+
+<script>
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("branding");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
