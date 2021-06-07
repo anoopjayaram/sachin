@@ -6,7 +6,8 @@ body {
   margin: 0;
   padding-top: 10%;
   padding-left: 5%;
-  background-image: url("/sachin_web/img/background_1.jpg");
+  /* background-image: url("/sachin_web/img/background_1.jpg"); */
+  background-image: url("https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg");
   /* background: url(/sachin_web/img/showcase1.jpg)no-repeat; */
  
 background-attachment: fixed;
