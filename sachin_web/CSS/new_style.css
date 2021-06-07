@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding-top: 10%;
   padding-left: 5%;
-  background:url(https://raw.githubusercontent.com/anoopjayaram/sachin/main/sachin_web/img/profile_cover.jpg) no-repeat;
+  background:url(/sachin_web/img/background_1.jpg) no-repeat;
  
 background-attachment: fixed;
 background-size: cover;
